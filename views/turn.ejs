@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <h1>
+        <%=playerOne.name%>
+    </h1>
+    <p>
+        Choose your Weapon!
+    </p>
+    <form action="/turn" method="post">
+        <input id="rock-button" type="submit" name="weapon" value="rock">
+    </form>
+    <br>
+    <form action="/turn" method="post">
+        <input id="paper-button" type="submit" name="weapon" value="paper">
+    </form>
+    <br>
+    <form action="/turn" method="post">
+        <input id="scissors-button" type="submit" name="weapon" value="scissors">
+    </form>
+    <br>
+    <form action="/turn" method="post">
+        <input id="spock-button" type="submit" name="weapon" value="spock">
+    </form>
+    <br>
+    <form action="/turn" method="post">
+        <input id="lizard-button" type="submit" name="weapon" value="lizard">
+    </form>
+</body>
+
+</html>
